@@ -165,6 +165,7 @@ export default {
         },
         resetCheckboxHandler() {
             this.formCheckBoxes.checkBoxAll = false;
+            this.page = 1;
         },
         isShownRoute(index) {
             const maxIndex = this.page * this.pageLength;
